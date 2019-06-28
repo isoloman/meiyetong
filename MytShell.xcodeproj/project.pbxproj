@@ -779,7 +779,7 @@
 					"$(inherited)",
 				);
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.myt.boss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myt.yslt;
 				PRODUCT_NAME = MytShell;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -818,7 +818,7 @@
 					"$(inherited)",
 				);
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.myt.boss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myt.yslt;
 				PRODUCT_NAME = MytShell;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
