@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_ROOT}/MOBFoundation" "${PODS_ROOT}/mob_sharesdk/ShareSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformConnector" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/QQSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/mob_sharesdk"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/SinaWeiboSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/WeChatSDKFull"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDKFull" -l"WeiboSDK" -l"c++" -l"sqlite3" -l"z" -framework "AFNetworking" -framework "CoreGraphics" -framework "ImageIO" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "MOBFoundationEx" -framework "MobileCoreServices" -framework "QQConnector" -framework "Security" -framework "ShareSDK" -framework "ShareSDKConnector" -framework "ShareSDKUI" -framework "SinaWeiboConnector" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "WechatConnector"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
