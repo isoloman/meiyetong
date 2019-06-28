@@ -2,7 +2,7 @@
 
 #import "Const.h"
 static NSString * Protocal = @"http://";//传输协议
-static NSString * BaseUrl = @"app.meiyetongsoft.com";
+static NSString * BaseUrl = @"yslt-app.meiyetongsoft.com/";
 
 @implementation AppConfig
 +(NSString *)BaseUrl{
