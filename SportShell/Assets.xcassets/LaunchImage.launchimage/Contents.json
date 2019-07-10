@@ -4,7 +4,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2688h",
-      "filename" : "1536-2008iPhoneXPortraitiOS11_375x812pt@3x-2.png",
+      "filename" : "1242-2688.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -13,32 +13,16 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "1792h",
-      "filename" : "1536-2008iPhoneXPortraitiOS11_375x812pt@3x-1.png",
+      "filename" : "828-1792.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "2x"
     },
     {
       "extent" : "full-screen",
-      "idiom" : "ipad",
-      "filename" : "1024-768.png",
-      "minimum-system-version" : "7.0",
-      "scale" : "1x",
-      "orientation" : "landscape"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "ipad",
-      "filename" : "2048-1536.png",
-      "minimum-system-version" : "7.0",
-      "scale" : "2x",
-      "orientation" : "landscape"
-    },
-    {
-      "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "1536-2008iPhoneXPortraitiOS11_375x812pt@3x.png",
+      "filename" : "1125-2436.png",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -47,7 +31,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "1536-2008iPhonePortraitiOS89_414x736pt@3x.png",
+      "filename" : "1242-2208.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -56,92 +40,58 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "1536-2008iPhonePortraitiOS89_375x667pt@2x.png",
+      "filename" : "750-1334.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
     },
     {
-      "extent" : "full-screen",
+      "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "1536-2008iPhonePortraitiOS789_320x480pt@2x.png",
+      "filename" : "640-960.png",
+      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "scale" : "2x",
-      "orientation" : "portrait"
+      "scale" : "2x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "1536-2008iPhonePortraitiOS789_320x568pt@2x.png",
+      "filename" : "640-1136.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
     },
     {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "filename" : "1536-2008iPhonePortraitiOS56_320x480pt.png",
       "orientation" : "portrait",
-      "scale" : "1x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "filename" : "1536-2008iPhonePortraitiOS56_320x480pt@2x.png",
-      "orientation" : "portrait",
-      "scale" : "2x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "filename" : "1536-2008iPhonePortraitiOS56_320x568pt@2x.png",
-      "subtype" : "retina4",
-      "orientation" : "portrait",
-      "scale" : "2x"
-    },
-    {
-      "extent" : "full-screen",
       "idiom" : "ipad",
+      "filename" : "768-1024.png",
+      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "scale" : "1x",
-      "filename" : "1536-2008iPadPortraitiOS789_768x1024pt.png",
-      "orientation" : "portrait"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "ipad",
-      "filename" : "1536-2008iPadPortraitiOS789_768x1024pt@2x.png",
-      "minimum-system-version" : "7.0",
-      "scale" : "2x",
-      "orientation" : "portrait"
-    },
-    {
-      "idiom" : "ipad",
-      "filename" : "1536-2008iPadPortraitWOSBiOS56_768x1004pt.png",
-      "orientation" : "portrait",
-      "extent" : "to-status-bar",
       "scale" : "1x"
     },
     {
+      "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "1536-2008iPadPortraitWOSBiOS56_768x1004pt@2x.png",
+      "filename" : "1024-768 .png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x"
+    },
+    {
       "orientation" : "portrait",
-      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "filename" : "1536-2048.png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
       "scale" : "2x"
     },
     {
+      "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "1536-2008iPadPortraitiOS56_768x1024pt.png",
-      "orientation" : "portrait",
+      "filename" : "2048-1536.png",
       "extent" : "full-screen",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "ipad",
-      "filename" : "1536-2008iPadPortraitiOS56_768x1024pt@2x.png",
-      "orientation" : "portrait",
-      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
       "scale" : "2x"
     }
   ],
