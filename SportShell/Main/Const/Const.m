@@ -2,7 +2,7 @@
 
 #import "Const.h"
 static NSString * Protocal = @"http://";//传输协议
-#ifdef Enterprise
+#if Enterprise
 static NSString * BaseUrl = @"app.meiyetongsoft.com";
 #elif BaiYue == 1
 static NSString * BaseUrl = @"azhenjing.meiyetongsoft.com/applogin/login.html";
@@ -19,7 +19,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 }
 
 +(NSString *)IPAndPort{//首页rul
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -27,7 +27,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @""];
 }
 +(NSString *)FileUpLoad{//图片上传url
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -35,7 +35,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)PublicLoad{
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -43,7 +43,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)JLRZUrl{
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -51,7 +51,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)JLZLUrl{
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -59,7 +59,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)SRMXUrl{
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -67,7 +67,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_WDDD {
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -75,7 +75,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_JSDD {
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -83,7 +83,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_HYK {
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
@@ -91,7 +91,7 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_COACH {
-#ifdef Enterprise
+#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
