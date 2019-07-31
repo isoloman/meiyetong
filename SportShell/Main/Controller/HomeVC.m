@@ -424,6 +424,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
         onlyone = 1;
     }
     //检查是否经过退出或重新登陆
+#if BaiYue ==0 //柏悦初始即为登录界面不判断
     range = [encodedstring rangeOfString:@"login.html"];
     if (range.length != 0) {
         onlyone = 0;
@@ -439,7 +440,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
             
         }
     }
-    
+#endif
     //检查是否调用获取版本号
     range = [encodedstring rangeOfString:@"aboutus.html"];
     if (range.length != 0) {

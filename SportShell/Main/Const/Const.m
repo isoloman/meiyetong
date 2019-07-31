@@ -1,11 +1,12 @@
 
 
 #import "Const.h"
-static NSString * Protocal = @"http://";//传输协议
 #if Enterprise
+static NSString * Protocal = @"http://";//传输协议
 static NSString * BaseUrl = @"app.meiyetongsoft.com";
 #elif BaiYue == 1
-static NSString * BaseUrl = @"azhenjing.meiyetongsoft.com/applogin/login.html";
+static NSString * Protocal = @"https://";//传输协议
+static NSString * BaseUrl = @"zhenjing.meiyetongsoft.com/applogin/login.html";
 #endif
 static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 
