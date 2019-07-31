@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C813AB122F1368B0017FCFC /* AppDelegate+MobShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0FD2991D217F2B000CD76B /* AppDelegate+MobShare.m */; };
+		0C813AB222F1368B0017FCFC /* HomeVC+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A11471CCFE4F100A36FD0 /* HomeVC+JPush.m */; };
+		0C813AB322F1368B0017FCFC /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE5AD51C9E045A00480813 /* HomeVC.m */; };
+		0C813AB422F1368B0017FCFC /* HomeVC+UPPayment.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE7473421CC3DE2200CBDCF3 /* HomeVC+UPPayment.mm */; };
+		0C813AB522F1368B0017FCFC /* MyNaviManage+GaoDeNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE80801CBF8ADB00F25CA5 /* MyNaviManage+GaoDeNavi.m */; };
+		0C813AB622F1368B0017FCFC /* MyNaviManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE807D1CBF8A9100F25CA5 /* MyNaviManage.m */; };
+		0C813AB722F1368B0017FCFC /* HomeVC+MobShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0FD29C1D218554000CD76B /* HomeVC+MobShare.m */; };
+		0C813AB822F1368B0017FCFC /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEDB426F1CBB415700401F4A /* WXUtil.mm */; };
+		0C813AB922F1368B0017FCFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE01FFCF1C9BB2720084AB2E /* AppDelegate.m */; };
+		0C813ABA22F1368B0017FCFC /* AFNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFFCDF41D1CE10E00709147 /* AFNTool.m */; };
+		0C813ABB22F1368B0017FCFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE01FFCC1C9BB2720084AB2E /* main.m */; };
+		0C813ABC22F1368B0017FCFC /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = FE775CF81DEFFA4000FCE4DB /* Const.m */; };
+		0C813ABD22F1368B0017FCFC /* UIPopoverListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE80861CBF8D2F00F25CA5 /* UIPopoverListView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C813ABE22F1368B0017FCFC /* HomeVC+WxPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB426B1CBB3FD500401F4A /* HomeVC+WxPayment.m */; };
+		0C813ABF22F1368B0017FCFC /* HomeVC+AMapSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0924851DC0AE6800FD047B /* HomeVC+AMapSearch.m */; };
+		0C813AC022F1368B0017FCFC /* HomeVC+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4C7F5B1D1BDB360021BC02 /* HomeVC+Camera.m */; };
+		0C813AC122F1368B0017FCFC /* DoImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED65E611D3F2A3C0092C90A /* DoImagePickerController.m */; };
+		0C813AC222F1368B0017FCFC /* AppDelegate+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1A7E211CCF5DA2007AC986 /* AppDelegate+JPush.m */; };
+		0C813AC322F1368B0017FCFC /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB425D1CBAAECB00401F4A /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C813AC422F1368B0017FCFC /* MyNaviManage+BaiDuNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE80831CBF8AF800F25CA5 /* MyNaviManage+BaiDuNavi.m */; };
+		0C813AC522F1368B0017FCFC /* WxBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FEADF4041CBCE89300B0F5E0 /* WxBackVC.m */; };
+		0C813AC622F1368B0017FCFC /* YCPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D25BC228E64E800482800 /* YCPlaceHolderView.m */; };
+		0C813AC722F1368B0017FCFC /* DoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED65E5E1D3F2A3C0092C90A /* DoAlbumCell.m */; };
+		0C813AC822F1368B0017FCFC /* AssetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FED65E5C1D3F2A3C0092C90A /* AssetHelper.m */; };
+		0C813AC922F1368B0017FCFC /* DoPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED65E641D3F2A3C0092C90A /* DoPhotoCell.m */; };
+		0C813ACA22F1368B0017FCFC /* HomeVC+NaviPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFE808F1CBF911E00F25CA5 /* HomeVC+NaviPopup.m */; };
+		0C813ACB22F1368B0017FCFC /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7478971CB89CCE00148910 /* UIWebView+JavaScriptAlert.m */; };
+		0C813ACD22F1368B0017FCFC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE07B9691CC9BF2000A48925 /* CoreFoundation.framework */; };
+		0C813ACE22F1368B0017FCFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7473491CC3F38200CBDCF3 /* CoreLocation.framework */; };
+		0C813ACF22F1368B0017FCFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFE80931CBF91F900F25CA5 /* UIKit.framework */; };
+		0C813AD022F1368B0017FCFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFE80881CBF8D3F00F25CA5 /* QuartzCore.framework */; };
+		0C813AD122F1368B0017FCFC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFB9461CBB481B0007C85C /* libsqlite3.0.tbd */; };
+		0C813AD222F1368B0017FCFC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDB42681CBB3E4000401F4A /* CoreTelephony.framework */; };
+		0C813AD322F1368B0017FCFC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7478B01CB8DD0600148910 /* libz.tbd */; };
+		0C813AD422F1368B0017FCFC /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0924801DC0ACB800FD047B /* AMapSearchKit.framework */; };
+		0C813AD522F1368B0017FCFC /* jpush-ios-2.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1A7E1C1CCF54AA007AC986 /* jpush-ios-2.1.6.a */; };
+		0C813AD622F1368B0017FCFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7478AB1CB8DCCE00148910 /* CFNetwork.framework */; };
+		0C813AD722F1368B0017FCFC /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7478A81CB8DCB200148910 /* libPaymentControl.a */; };
+		0C813AD822F1368B0017FCFC /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7473471CC3F35100CBDCF3 /* AMapLocationKit.framework */; };
+		0C813AD922F1368B0017FCFC /* Pods_MytShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB6C5177B50DB39C843BF68 /* Pods_MytShell.framework */; };
+		0C813ADB22F1368B0017FCFC /* DoPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED65E651D3F2A3C0092C90A /* DoPhotoCell.xib */; };
+		0C813ADC22F1368B0017FCFC /* DoImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED65E621D3F2A3C0092C90A /* DoImagePickerController.xib */; };
+		0C813ADD22F1368B0017FCFC /* DoAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED65E5F1D3F2A3C0092C90A /* DoAlbumCell.xib */; };
+		0C813ADF22F1368B0017FCFC /* YCPlaceHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840D25BE228E64F300482800 /* YCPlaceHolderView.xib */; };
+		0C813AE022F1368B0017FCFC /* placeholder_no_data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840D25C0228E652C00482800 /* placeholder_no_data@3x.png */; };
+		0C813AE122F1368B0017FCFC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF53DF91D1D08EA002B05EA /* Default-568h@2x.png */; };
+		0C813AE222F1368B0017FCFC /* placeholder_no_data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840D25C1228E652D00482800 /* placeholder_no_data@2x.png */; };
+		0C813AE322F1368B0017FCFC /* placeholder_no_data.png in Resources */ = {isa = PBXBuildFile; fileRef = 840D25C2228E652D00482800 /* placeholder_no_data.png */; };
+		0C813AED22F139A30017FCFC /* BaiYue-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C813AEC22F139A30017FCFC /* BaiYue-Info.plist */; };
+		0C813AEE22F13C8F0017FCFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE01FFD71C9BB2720084AB2E /* Assets.xcassets */; };
 		840D25BD228E64E800482800 /* YCPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D25BC228E64E800482800 /* YCPlaceHolderView.m */; };
 		840D25BF228E64F300482800 /* YCPlaceHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840D25BE228E64F300482800 /* YCPlaceHolderView.xib */; };
 		840D25C3228E652D00482800 /* placeholder_no_data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840D25C0228E652C00482800 /* placeholder_no_data@3x.png */; };
@@ -59,6 +109,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C813AE922F1368B0017FCFC /* BaiYue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiYue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C813AEC22F139A30017FCFC /* BaiYue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BaiYue-Info.plist"; sourceTree = "<group>"; };
 		15956D257C340315C4313E7E /* Pods-SportShell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShell.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportShell/Pods-SportShell.release.xcconfig"; sourceTree = "<group>"; };
 		1FD7B189E58154AE5E81AA57 /* Pods-MytShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MytShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MytShell/Pods-MytShell.debug.xcconfig"; sourceTree = "<group>"; };
 		5065666AD3ECE7AC30EE54B9 /* Pods-SportShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportShell/Pods-SportShell.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +199,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C813ACC22F1368B0017FCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C813ACD22F1368B0017FCFC /* CoreFoundation.framework in Frameworks */,
+				0C813ACE22F1368B0017FCFC /* CoreLocation.framework in Frameworks */,
+				0C813ACF22F1368B0017FCFC /* UIKit.framework in Frameworks */,
+				0C813AD022F1368B0017FCFC /* QuartzCore.framework in Frameworks */,
+				0C813AD122F1368B0017FCFC /* libsqlite3.0.tbd in Frameworks */,
+				0C813AD222F1368B0017FCFC /* CoreTelephony.framework in Frameworks */,
+				0C813AD322F1368B0017FCFC /* libz.tbd in Frameworks */,
+				0C813AD422F1368B0017FCFC /* AMapSearchKit.framework in Frameworks */,
+				0C813AD522F1368B0017FCFC /* jpush-ios-2.1.6.a in Frameworks */,
+				0C813AD622F1368B0017FCFC /* CFNetwork.framework in Frameworks */,
+				0C813AD722F1368B0017FCFC /* libPaymentControl.a in Frameworks */,
+				0C813AD822F1368B0017FCFC /* AMapLocationKit.framework in Frameworks */,
+				0C813AD922F1368B0017FCFC /* Pods_MytShell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE01FFC51C9BB2720084AB2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +242,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C813AEB22F1393E0017FCFC /* BaiYueInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0C813AEC22F139A30017FCFC /* BaiYue-Info.plist */,
+			);
+			path = BaiYueInfo;
+			sourceTree = "<group>";
+		};
 		6C9129C017E0C2D9C9EF6A8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +276,7 @@
 				6C9129C017E0C2D9C9EF6A8B /* Frameworks */,
 				BEEF8A87F682AD4E03B01B54 /* Pods */,
 				FE01FFC91C9BB2720084AB2E /* Products */,
+				0C813AEB22F1393E0017FCFC /* BaiYueInfo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				FE01FFC81C9BB2720084AB2E /* MytShell.app */,
+				0C813AE922F1368B0017FCFC /* BaiYue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -480,6 +562,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C813AAE22F1368B0017FCFC /* BaiYue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C813AE622F1368B0017FCFC /* Build configuration list for PBXNativeTarget "BaiYue" */;
+			buildPhases = (
+				0C813AAF22F1368B0017FCFC /* [CP] Check Pods Manifest.lock */,
+				0C813AB022F1368B0017FCFC /* Sources */,
+				0C813ACC22F1368B0017FCFC /* Frameworks */,
+				0C813ADA22F1368B0017FCFC /* Resources */,
+				0C813AE422F1368B0017FCFC /* [CP] Embed Pods Frameworks */,
+				0C813AE522F1368B0017FCFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiYue;
+			productName = NewShell;
+			productReference = 0C813AE922F1368B0017FCFC /* BaiYue.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FE01FFC71C9BB2720084AB2E /* MytShell */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE01FFDF1C9BB2720084AB2E /* Build configuration list for PBXNativeTarget "MytShell" */;
@@ -509,6 +611,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SportShell;
 				TargetAttributes = {
+					0C813AAE22F1368B0017FCFC = {
+						DevelopmentTeam = SJN78ELCW7;
+					};
 					FE01FFC71C9BB2720084AB2E = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = SJN78ELCW7;
@@ -538,11 +643,28 @@
 			projectRoot = "";
 			targets = (
 				FE01FFC71C9BB2720084AB2E /* MytShell */,
+				0C813AAE22F1368B0017FCFC /* BaiYue */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C813ADA22F1368B0017FCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C813ADB22F1368B0017FCFC /* DoPhotoCell.xib in Resources */,
+				0C813ADC22F1368B0017FCFC /* DoImagePickerController.xib in Resources */,
+				0C813ADD22F1368B0017FCFC /* DoAlbumCell.xib in Resources */,
+				0C813ADF22F1368B0017FCFC /* YCPlaceHolderView.xib in Resources */,
+				0C813AE022F1368B0017FCFC /* placeholder_no_data@3x.png in Resources */,
+				0C813AE122F1368B0017FCFC /* Default-568h@2x.png in Resources */,
+				0C813AE222F1368B0017FCFC /* placeholder_no_data@2x.png in Resources */,
+				0C813AEE22F13C8F0017FCFC /* Assets.xcassets in Resources */,
+				0C813AE322F1368B0017FCFC /* placeholder_no_data.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE01FFC61C9BB2720084AB2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -554,6 +676,7 @@
 				840D25BF228E64F300482800 /* YCPlaceHolderView.xib in Resources */,
 				840D25C3228E652D00482800 /* placeholder_no_data@3x.png in Resources */,
 				FEF53DFA1D1D08EA002B05EA /* Default-568h@2x.png in Resources */,
+				0C813AED22F139A30017FCFC /* BaiYue-Info.plist in Resources */,
 				840D25C4228E652D00482800 /* placeholder_no_data@2x.png in Resources */,
 				840D25C5228E652D00482800 /* placeholder_no_data.png in Resources */,
 			);
@@ -562,6 +685,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C813AAF22F1368B0017FCFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MytShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C813AE422F1368B0017FCFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MytShell/Pods-MytShell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MytShell/Pods-MytShell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C813AE522F1368B0017FCFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MytShell/Pods-MytShell-resources.sh",
+				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MytShell/Pods-MytShell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		98EEECD0C06F7A57072CCA55 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,6 +804,40 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C813AB022F1368B0017FCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C813AB122F1368B0017FCFC /* AppDelegate+MobShare.m in Sources */,
+				0C813AB222F1368B0017FCFC /* HomeVC+JPush.m in Sources */,
+				0C813AB322F1368B0017FCFC /* HomeVC.m in Sources */,
+				0C813AB422F1368B0017FCFC /* HomeVC+UPPayment.mm in Sources */,
+				0C813AB522F1368B0017FCFC /* MyNaviManage+GaoDeNavi.m in Sources */,
+				0C813AB622F1368B0017FCFC /* MyNaviManage.m in Sources */,
+				0C813AB722F1368B0017FCFC /* HomeVC+MobShare.m in Sources */,
+				0C813AB822F1368B0017FCFC /* WXUtil.mm in Sources */,
+				0C813AB922F1368B0017FCFC /* AppDelegate.m in Sources */,
+				0C813ABA22F1368B0017FCFC /* AFNTool.m in Sources */,
+				0C813ABB22F1368B0017FCFC /* main.m in Sources */,
+				0C813ABC22F1368B0017FCFC /* Const.m in Sources */,
+				0C813ABD22F1368B0017FCFC /* UIPopoverListView.m in Sources */,
+				0C813ABE22F1368B0017FCFC /* HomeVC+WxPayment.m in Sources */,
+				0C813ABF22F1368B0017FCFC /* HomeVC+AMapSearch.m in Sources */,
+				0C813AC022F1368B0017FCFC /* HomeVC+Camera.m in Sources */,
+				0C813AC122F1368B0017FCFC /* DoImagePickerController.m in Sources */,
+				0C813AC222F1368B0017FCFC /* AppDelegate+JPush.m in Sources */,
+				0C813AC322F1368B0017FCFC /* KeychainItemWrapper.m in Sources */,
+				0C813AC422F1368B0017FCFC /* MyNaviManage+BaiDuNavi.m in Sources */,
+				0C813AC522F1368B0017FCFC /* WxBackVC.m in Sources */,
+				0C813AC622F1368B0017FCFC /* YCPlaceHolderView.m in Sources */,
+				0C813AC722F1368B0017FCFC /* DoAlbumCell.m in Sources */,
+				0C813AC822F1368B0017FCFC /* AssetHelper.m in Sources */,
+				0C813AC922F1368B0017FCFC /* DoPhotoCell.m in Sources */,
+				0C813ACA22F1368B0017FCFC /* HomeVC+NaviPopup.m in Sources */,
+				0C813ACB22F1368B0017FCFC /* UIWebView+JavaScriptAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE01FFC41C9BB2720084AB2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,6 +875,96 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0C813AE722F1368B0017FCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD7B189E58154AE5E81AA57 /* Pods-MytShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = BaiYueAppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BaiYueLaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SportShell/SportShell.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJN78ELCW7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/GaoDe",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SportShell/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BaiYue=1",
+					"Enterprise=0",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BaiYueInfo/BaiYue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/UPPayPlugin",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/WXPayment",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/JPush",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myt.baiyue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		0C813AE822F1368B0017FCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F802EEE73524084C916E8D0B /* Pods-MytShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = BaiYueAppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BaiYueLaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SportShell/SportShell.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJN78ELCW7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/GaoDe",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SportShell/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BaiYue=1",
+					"Enterprise=0",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BaiYueInfo/BaiYue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/UPPayPlugin",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/WXPayment",
+					"$(PROJECT_DIR)/SportShell/Main/Lib/JPush",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myt.baiyue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
 		FE01FFDD1C9BB2720084AB2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -765,6 +1070,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SportShell/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BaiYue=0",
+					"Enterprise=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SportShell/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -804,6 +1115,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SportShell/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BaiYue=0",
+					"Enterprise=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SportShell/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -829,6 +1146,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C813AE622F1368B0017FCFC /* Build configuration list for PBXNativeTarget "BaiYue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C813AE722F1368B0017FCFC /* Debug */,
+				0C813AE822F1368B0017FCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FE01FFC31C9BB2720084AB2E /* Build configuration list for PBXProject "MytShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
