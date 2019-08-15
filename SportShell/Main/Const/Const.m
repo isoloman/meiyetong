@@ -4,11 +4,12 @@
 #if Enterprise
 static NSString * Protocal = @"http://";//传输协议
 static NSString * BaseUrl = @"app.meiyetongsoft.com";
+static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 #elif BaiYue == 1
 static NSString * Protocal = @"https://";//传输协议
 static NSString * BaseUrl = @"zhenjing.meiyetongsoft.com/applogin/login.html";
+static NSString * IPadUrl = @"http://zhenjing.meiyetongsoft.com/applogin_pad/login.html";
 #endif
-static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 
 @implementation AppConfig
 +(NSString *)BaseUrl{
@@ -20,83 +21,63 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 }
 
 +(NSString *)IPAndPort{//首页rul
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @""];
 }
 +(NSString *)FileUpLoad{//图片上传url
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)PublicLoad{
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)JLRZUrl{
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)JLZLUrl{
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)SRMXUrl{
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_WDDD {
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_JSDD {
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_HYK {
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
     return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 +(NSString *)Config_COACH {
-#if Enterprise
     if ([self getIsIpad]) {
         return IPadUrl;
     }
-#endif
    return [[NSString alloc] initWithFormat:@"%@%@%@", Protocal, BaseUrl, @"/"];
 }
 
