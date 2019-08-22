@@ -424,7 +424,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
         onlyone = 1;
     }
     //检查是否经过退出或重新登陆
-#if BaiYue ==0 //柏悦初始即为登录界面不判断
+#if (BaiYue == 0||FuBang==0) //柏悦初始即为登录界面不判断
     range = [encodedstring rangeOfString:@"login.html"];
     if (range.length != 0) {
         onlyone = 0;
@@ -607,16 +607,20 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    #if FuBang == 0
     if ([self getIsIpad]) {
         return UIInterfaceOrientationMaskLandscapeLeft|UIInterfaceOrientationMaskLandscapeRight;
     }
+    #endif
     return UIInterfaceOrientationMaskPortrait;
 }
 
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+#if FuBang == 0
     if ([self getIsIpad]) {
         return UIInterfaceOrientationLandscapeLeft|UIInterfaceOrientationLandscapeRight;
     }
+#endif
     return UIInterfaceOrientationPortrait;
 }
 

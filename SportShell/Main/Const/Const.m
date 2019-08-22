@@ -9,6 +9,10 @@ static NSString * IPadUrl = @"https://iosipad.meiyetongsoft.com/";
 static NSString * Protocal = @"https://";//传输协议
 static NSString * BaseUrl = @"zhenjing.meiyetongsoft.com/applogin/login.html";
 static NSString * IPadUrl = @"http://zhenjing.meiyetongsoft.com/applogin_pad/login.html";
+#elif FuBang == 1
+static NSString * Protocal = @"http://";//传输协议
+static NSString * BaseUrl = @"webfubang.meiyetongsoft.com/#/login";
+static NSString * IPadUrl = @"http://webfubang.meiyetongsoft.com/#/login";
 #endif
 
 @implementation AppConfig
