@@ -78,7 +78,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>mqqOpensdkSSoLogin</string>
@@ -108,11 +108,11 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>是否允许访问相机？</string>
+	<string>是否允许访问相机以便于扫描二维码或拍照？</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>是否允许获取你当前的位置，来获取附近商家？</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>是否允许访问媒体资料库？</string>
+	<string>是否允许访问相册选择上传图片？</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
